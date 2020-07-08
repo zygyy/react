@@ -95,3 +95,14 @@ JSX语法:JavaScript +XML 语法
 
 ## props属性
 组件的复用性
+
+## React的生命周期函数
+函数列表:
+compoentWillMount:在组件渲染之前执行
+compoentDidMount:在组件之后执行
+shouldCompoentUpdate:返回true和false,true代表允许改变,false代表不允许改变
+compoentWillUpdate:数据在改变之前执行(state,props)
+compoentDidUpdate:数据修改完成(state,props)
+compoentWillReceiveProps:props发生改变
+compoentWillUnmount:组件卸载前执行
+子传父以及父传子
