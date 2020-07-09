@@ -1,8 +1,10 @@
 import React from 'react'
-import Home from './Home'
-import Mynav from './MyNav'
-import StateCompoent from "./stateCompoent";
-import CompoentLife from './CompoentLife';
+// import Home from './Home'
+// import Mynav from './MyNav'
+// import StateCompoent from "./stateCompoent";
+// import CompoentLife from './CompoentLife';
+// import SetStateDemo from './setStateDemo'
+import IFDemo from './IFDemo'
 
 //类的形式创建组件
 class App extends React.Component {
@@ -33,10 +35,12 @@ class App extends React.Component {
                 <Mynav nav={nav1} title="生活"></Mynav>
                 <Mynav nav={nav2} title="学习"></Mynav> */}
                 {/* <StateCompoent></StateCompoent> */}
-                <CompoentLife title={this.state.title} changeChanges={this.changeChange}></CompoentLife>
+                {/* <CompoentLife title={this.state.title} changeChanges={this.changeChange}></CompoentLife> */}
                 {/* <button onClick={this.changeChange}>
                     修改Title
             </button> */}
+            {/* <SetStateDemo></SetStateDemo> */}
+            <IFDemo></IFDemo>
             </div>
         )
     }

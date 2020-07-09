@@ -106,3 +106,7 @@ compoentDidUpdate:数据修改完成(state,props)
 compoentWillReceiveProps:props发生改变
 compoentWillUnmount:组件卸载前执行
 子传父以及父传子
+
+## setState更新是同步还是异步
+setState会引起视图的重绘
+在可控的情况下是异步，在非可控的情况下是同步
