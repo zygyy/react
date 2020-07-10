@@ -110,3 +110,5 @@ compoentWillUnmount:组件卸载前执行
 ## setState更新是同步还是异步
 setState会引起视图的重绘
 在可控的情况下是异步，在非可控的情况下是同步
+
+## 列表渲染 key的問題

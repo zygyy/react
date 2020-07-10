@@ -4,7 +4,11 @@ import React from 'react'
 // import StateCompoent from "./stateCompoent";
 // import CompoentLife from './CompoentLife';
 // import SetStateDemo from './setStateDemo'
-import IFDemo from './IFDemo'
+// import IFDemo from './IFDemo'
+// import KeyDemo from './KeyDemo'
+// import FormDemo from './FormDemo'
+//import RefsAndDom from './RefsAndDom'
+import RefsForm from './RefsForm'
 
 //类的形式创建组件
 class App extends React.Component {
@@ -40,7 +44,12 @@ class App extends React.Component {
                     修改Title
             </button> */}
             {/* <SetStateDemo></SetStateDemo> */}
-            <IFDemo></IFDemo>
+            {/* <IFDemo></IFDemo> */}
+            {/* <KeyDemo></KeyDemo> */}
+            {/* <FormDemo></FormDemo> */}
+            {/* <RefsAndDom></RefsAndDom> */}
+            <RefsForm>
+            </RefsForm>
             </div>
         )
     }

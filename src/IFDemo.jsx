@@ -49,7 +49,6 @@ export default class IFDemo extends React.Component {
                     </div>
                 }
             </div>
-
         )
     }
 }
