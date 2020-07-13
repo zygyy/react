@@ -14,8 +14,8 @@ export default class RefsForm extends React.Component{
     render(){
         return (
             <div>
-                <input type="text" ref={this.username}></input>
-                <input type="text" ref={this.password}></input>
+                <input type="text" ref={this.username}></input><br></br>
+                <input type="text" ref={this.password}></input><br></br>
                 <button onClick={this.clickHandler}>提交</button>
             </div>
         )

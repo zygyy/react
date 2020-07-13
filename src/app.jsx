@@ -8,7 +8,8 @@ import React from 'react'
 // import KeyDemo from './KeyDemo'
 // import FormDemo from './FormDemo'
 //import RefsAndDom from './RefsAndDom'
-import RefsForm from './RefsForm'
+//import RefsForm from './RefsForm'
+import Parent from './components/parent'
 
 //类的形式创建组件
 class App extends React.Component {
@@ -48,8 +49,9 @@ class App extends React.Component {
             {/* <KeyDemo></KeyDemo> */}
             {/* <FormDemo></FormDemo> */}
             {/* <RefsAndDom></RefsAndDom> */}
-            <RefsForm>
-            </RefsForm>
+            {/* <RefsForm>
+            </RefsForm> */}
+            <Parent></Parent>
             </div>
         )
     }
